@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.nav{
+    white-space: nowrap;
+    display: inline-flex;
+}
+
 .nav-list {
     display: inline-flex;
     justify-content: flex-end;
@@ -49,6 +54,7 @@
 }
 
 .name{
+    margin-right: 30px;
     font-size: 32px;
     margin-right: 30px;
     font-weight: bold;
